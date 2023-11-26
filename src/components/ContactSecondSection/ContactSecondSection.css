@@ -1,0 +1,42 @@
+.contact-second-section {
+	margin: var(--default-margin);
+	width: var(--container-width);
+	font-size: var(--fs-s);
+	font-family: var(--primary-font);
+	padding: 40px 0;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	gap: 5rem;
+}
+.contact-content {
+	/* width: 40%; */
+	height: 100%;
+}
+.contact-content > * {
+	margin: 2rem 0;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list li {
+	margin: 1rem;
+}
+.list li a {
+	font-size: 18px;
+	color: var(--secondary-color);
+}
+.list li:hover a {
+	color: var(--primary-color);
+}
+hr {
+	width: 50%;
+}
+.links {
+	display: block;
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 1rem 0;
+}

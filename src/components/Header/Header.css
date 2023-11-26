@@ -1,0 +1,96 @@
+header {
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 8px 32px 0 rgba(87, 90, 139, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 80px;
+	z-index: 999;
+	top: 0;
+	left: 0;
+}
+header nav {
+	height: 80px;
+	margin: var(--default-margin);
+	width: var(--container-width);
+	font-size: var(--fs-l);
+	font-family: var(--primary-font);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo-container {
+	max-width: 200px;
+	height: 80px;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 3rem;
+	text-transform: capitalize;
+}
+
+.nav-link {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	transition: 0.3s ease;
+	position: relative;
+}
+.nav-link::after {
+	position: absolute;
+	content: "";
+	bottom: -5px;
+	height: 3px;
+	width: 0;
+	left: 0;
+	background: var(--secondary-color);
+	transition: all 200ms;
+}
+.nav-link:hover::after {
+	width: 100%;
+}
+
+.nav-link:hover a {
+	color: var(--secondary-color);
+	transition: var(--default-transition);
+}
+.nav-link:active {
+	transform: scale(0.9);
+}
+.translate {
+	font-size: 3rem;
+	position: relative;
+	cursor: pointer;
+}
+.translate:active {
+	transform: scale(0.9);
+}
+.translate:hover {
+	transition: all 0.2s;
+	color: var(--secondary-color);
+}
+.translate:hover .switch {
+	visibility: visible;
+	opacity: 1;
+	color: #fff;
+}
+.switch {
+	position: absolute;
+	bottom: -20px;
+	padding: 5px;
+	left: 50%;
+	transform: translate(-50%);
+	width: max-content;
+	font-size: 10px;
+	background: #333;
+	border-radius: 15px;
+	text-transform: capitalize;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s;
+}

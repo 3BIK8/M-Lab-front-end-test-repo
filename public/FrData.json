@@ -1,0 +1,32 @@
+{
+	"homePage": {
+		"firstSection": {
+			"sectionTitle": "french ipsum elit",
+			"quote": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quod id nisi.",
+			"backgroundImage": "/assets/bg.jpg"
+		},
+		"secondSection": {
+			"sectionTitle": "Cras congue quis ligula a accumsan.",
+			"description": "Fusce id cursus nisi, id fringilla nisl. Nam tempus porttitor ante. Proin at varius mauris. Ut nibh elit, placerat quis mi id, scelerisque convallis diam. Cras congue quis ligula a accumsan.",
+			"image": "/assets/E1.jpg",
+			"imageAlt": "placeholder",
+			"contentTitle": "About US",
+			"contentDesc": "Proin at volutpat eros, quis tincidunt ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut auctor nunc pellentesque justo rutrum, ac tincidunt mi pretium. Vestibulum vulputate dictum congue. Nullam mattis, quam sed dignissim sagittis, dui nisl egestas augue, a euismod turpis purus ut tellus. Vestibulum ornare porta elit, quis bibendum odio hendrerit mattis. Vivamus semper neque ex, sed varius enim bibendum in. Cras mattis nec urna ultricies gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eros ligula, fermentum ac velit sit amet, dapibuscondimentum purus. Aenean cursus mauris vel tempus tempor. Cras necodio sit amet magna tincidunt venenatis. Sed ultrices vitae est quis rhoncus. Curabitur ultricies tincidunt justo eu convallis. Vivamus nec leo dapibus, ornare turpis vel, porta nulla. Vestibulum sit amet elementum nisl, in rhoncus ante. Aenean quis sollicitudin libero, at pretium est. Curabitur accumsan orci id auctor molestie. Etiam leo mi, scelerisque finibus sodales sit amet, gravida ac quam. Proin porttitor nibh iaculis, semper nulla ut, fermentum ex. Curabitur mattis purus ac auctor ornare. Fusce id cursus nisi, id fringilla nisl. Nam tempus porttitor ante. Proin at varius mauris. Ut nibh elit, placerat quis mi id, scelerisque convallis diam. Cras congue quis ligula a accumsan. Nulla ultricies auctor libero, tristique interdum sem aliquam vel. Quisque urna est, lacinia nec faucibus tincidunt, volutpat et mauris. Cras posuere est arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec orci sapien, tristique ac lorem eget, tincidunt volutpat lorem..."
+		}
+	},
+	"contactPage": {
+		"firstSection": {
+			"sectionTitle": "Lorem ipsum dolor elit",
+			"quote": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quod id nisi.",
+			"backgroundImage": "/assets/bg.jpg"
+		}
+	},
+	"formationPage": {
+		"firstSection": {
+			"sectionTitle": "Lorem ipsum dolor elit",
+			"quote": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quod id nisi.",
+			"backgroundImage": "/assets/bg.jpg"
+		}
+	},
+	"headerInfo": ["home", "formation", "contact", "changer langue"]
+}

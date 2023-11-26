@@ -1,0 +1,17 @@
+.second {
+	background: var(--background-image);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: max-content;
+}
+.third {
+	position: relative;
+	height: 100%;
+}
+
+#tsparticles {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -9;
+}

@@ -1,0 +1,52 @@
+.first {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.first-section {
+	--section-content-width: 50%;
+	--quote-width: 25%;
+
+	padding: 120px 0 180px;
+	margin: var(--default-margin);
+	width: var(--container-width);
+	font-size: var(--fs-l);
+	font-family: var(--primary-font);
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+.section-content {
+	width: var(--section-content-width);
+	margin-right: calc(
+		100% - (var(--section-content-width) + var(--quote-width))
+	);
+}
+.title {
+	font-size: 10rem;
+	font-family: var(--headings-font);
+	font-weight: var(--fw-b);
+	text-transform: uppercase;
+}
+.quote {
+	width: var(--quote-width);
+	position: relative;
+	z-index: 1;
+}
+.quote p {
+	font-size: var(--fs-xl);
+	font-weight: var(--fw-sb);
+	font-family: var(--headings-font);
+	line-height: 150%;
+	margin-top: 100px;
+	text-align: right;
+}
+.quote-icon {
+	position: absolute;
+	z-index: -1;
+	color: var(--secondary-color);
+	font-size: 8rem;
+	top: 6.5rem;
+	right: 0;
+}

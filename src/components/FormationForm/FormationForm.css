@@ -1,0 +1,189 @@
+.container {
+    margin-top: 5rem;
+}
+.singup {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 550px;
+    width: 100%;
+    flex-direction: column;
+    gap: 35px;
+    padding: 2rem;
+    background: transparent;
+}
+
+.inputBox,
+.inputBox1 {
+    position: relative;
+    width: 450px;
+}
+
+.inputBox input,
+.inputBox textarea,
+.inputBox1 input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: 0.2s ease-in;
+    border-bottom-left-radius: 8px;
+}
+
+.inputBox span,
+.inputBox1 span {
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span,
+.inputBox textarea:valid ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox1 input:valid ~ span,
+.inputBox1 input:focus ~ span {
+    transform: translateX(313px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #fff;
+    letter-spacing: 0.2em;
+    color: #000;
+    border: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus,
+.inputBox textarea:valid,
+.inputBox textarea:focus,
+.inputBox1 input:valid,
+.inputBox1 input:focus {
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+.inputBox textarea {
+    resize: vertical;
+}
+.enter {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+}
+
+.enter:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.reset {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+}
+
+.reset:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.reset, .enter {
+    margin: 20px;
+}
+
+.inputFileBox {
+    position: relative;
+    width: 450px;
+}
+
+.inputFileBox input[type="file"] {
+    display: none;
+}
+
+.custom-upload-label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.inputFileBox input:valid ~ .custom-upload-label,
+.inputFileBox input:focus ~ .custom-upload-label {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background: #fff;
+    color: #000;
+}
+
+.upload-icon {
+    margin-right: 5px;
+}
+
+.inputFileBox span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px;
+}
+
+.inputFileBox input:valid ~ span,
+.inputFileBox input:focus ~ span {
+    transform: translateY(-50%);
+}
